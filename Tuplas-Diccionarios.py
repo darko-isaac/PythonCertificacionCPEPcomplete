@@ -25,6 +25,7 @@ for name in sorted(school_class.keys()):
 print(sorted(school_class))
 
 dic = {'a': 1, 'b': 2, 'c': 3, 'd': 2, 'e': 4, 'f': 5, 'g': 6, 'h': 2, 'i': 7, 'j': 2, 'k': 8, 'l': 9}
+dic2 ={'a': 1,'r': 4}
 #esta linea de codigo hace uso del count en diccionarios para los valores contenidos en sus keys
 duplicates = list(dic.values()).count(2)
 print(duplicates)  # Output: 4
